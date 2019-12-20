@@ -5,6 +5,7 @@
 # +++++++++++++++ Le site +++++++++++++++++++
 title: Maker 52
 subtitle: FabLab Chaumont
+moto: Apprendre, Faire et Partager
 email: fablab[at]maker52[point]fr
 description: >- # this means to ignore newlines until "baseurl:"
   "Apprendre, Faire et Partager."
