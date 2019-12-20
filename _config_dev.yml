@@ -1,0 +1,9 @@
+# Development config
+
+#timezone: Asia/Shanghai #+8
+timezone: Europe/Paris # +1 / DST +2
+#timezone: Pacific/Honolulu # -10
+
+liquid:
+  strict_variables: false # default: false
+  strict_filters: true # default: false

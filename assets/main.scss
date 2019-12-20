@@ -1,0 +1,43 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+
+@import "minima";
+
+h2{
+  border-bottom: 1px solid $brand-color;
+}
+
+figure{
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 5px;
+  border: 1px solid white;
+}
+
+.so_strong{
+  font-size: 1.3rem;
+}
+
+/* Mailchimp form */
+#mc_embed_signup {
+  background: darken($grey-color, 5%);
+  color: black;
+  clear:left;
+  width:90%;
+  margin: 0 auto;
+  padding: 10px;
+
+  .button {
+    /*
+    background-color: #025f00;
+    */
+  }
+}
+
+#mc-embedded-subscribe-form input[type=checkbox]{display: inline; width: auto;margin-right: 10px;}
+#mergeRow-gdpr {margin-top: 20px;}
+#mergeRow-gdpr fieldset label {font-weight: normal;}
+#mc-embedded-subscribe-form .mc_fieldset{border:none;min-height: 0px;padding-bottom:0px;}
+
