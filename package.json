@@ -1,0 +1,13 @@
+{
+  "name": "maker52.fr",
+  "version": "0.0.1",
+  "description": "Maker 52 - FabLab Chaumont",
+  "main": "index.html",
+  "repository": "git@github.com:fablab52/maker52.fr.git",
+  "author": "djacquel <github@pygmeeweb.com>",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "spectre.css": "^0.5.8"
+  }
+}

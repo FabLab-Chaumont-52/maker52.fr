@@ -3,16 +3,15 @@
 # Fichier de configuration de Jekyll
 
 # +++++++++++++++ Le site +++++++++++++++++++
-title: Maker 52
-subtitle: FabLab Chaumont
+title: Maker 52 - FabLab Chaumont
+subtitle:
 moto: Apprendre, Faire et Partager
 email: fablab[at]maker52[point]fr
-description: >- # this means to ignore newlines until "baseurl:"
-  "Apprendre, Faire et Partager."
+description: Laboratoire de Fabrication, où n'importe qui peut fabriquer presque n'importe quoi.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "maker52.fr" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://maker52.fr" # the base hostname & protocol for your site, e.g. http://example.com
 
-logo: "/assets/maker-52-viaduc-chaumont-impression-3d-600x424.jpg"
+logo: "/img/logo-maker52-02.jpg"
 
 lang: fr
 timezone: Europe/Paris # +1 / DST +2
@@ -84,3 +83,9 @@ kramdown:
   enable_coderay: false
   parse_block_html: true
   parse_span_html: true
+
+
+sass:
+  load_paths:
+    - _sass
+    - node_modules/spectre.css/src

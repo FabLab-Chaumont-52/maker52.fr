@@ -2,19 +2,52 @@
 # Only the main Sass file needs front matter (the dashes are enough)
 ---
 
-@import "minima";
+@import "custom_spectre";
 
-h2{
-  border-bottom: 1px solid $brand-color;
+
+.navbar-main{
+
+  border-bottom: 2px solid $primary-color;
+
+  .brand-logo{
+
+    align-items: center;
+    border-radius: .1rem;
+    display: inline-flex;
+    font-size: .7rem;
+    height: auto;
+    padding: .2rem;
+    width: auto;
+
+    img{
+      display: inline-block;
+      height: auto;
+      width: 120px;
+    }
+
+    h2{
+      color: $primary-color;
+      display: inline-block;
+      font-size: .8rem;
+      font-weight: 700;
+      line-height: 1.5rem;
+      margin-bottom: 0;
+      margin-left: .5rem;
+      margin-right: .3rem;
+    }
+
+  }
+
 }
 
-figure{
-  width: 70%;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 5px;
-  border: 1px solid white;
+.footer-main{
+  border-top: 2px solid $primary-color;
 }
+
+
+
+/* +++++++++++ WIP +++++++++++++ */
+
 
 .so_strong{
   font-size: 1.3rem;
@@ -22,7 +55,7 @@ figure{
 
 /* Mailchimp form */
 #mc_embed_signup {
-  background: darken($grey-color, 5%);
+  background: darken($gray-color, 5%);
   color: white;
   clear:left;
   width:90%;
