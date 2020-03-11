@@ -2,12 +2,12 @@
 # Only the main Sass file needs front matter (the dashes are enough)
 ---
 
-@import "custom_spectre";
+@import "custom_bootstrap";
 
 
 .navbar-main{
 
-  border-bottom: 2px solid $primary-color;
+  border-bottom: 1px solid $primary;
 
   .brand-logo{
 
@@ -26,7 +26,7 @@
     }
 
     h2{
-      color: $primary-color;
+      color: $primary;
       display: inline-block;
       font-size: .8rem;
       font-weight: 700;
@@ -41,10 +41,15 @@
 }
 
 .footer-main{
-  border-top: 2px solid $primary-color;
+  border-top: 1px solid $primary;
 }
 
-
+.documentation-content{
+  .row{
+    border-top: 2px solid $secondary;
+    padding: 10px 0;
+  }
+}
 
 /* +++++++++++ WIP +++++++++++++ */
 
@@ -55,7 +60,7 @@
 
 /* Mailchimp form */
 #mc_embed_signup {
-  background: darken($gray-color, 5%);
+  background: $gray-200;
   color: white;
   clear:left;
   width:90%;

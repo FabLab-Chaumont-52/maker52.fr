@@ -1,16 +1,35 @@
-<header class="navbar navbar-main">
-  <section class="navbar-section">
-    <div class="navbar-brand">
-      <a href="{{ site.baseurl }}/" class="brand-logo">
-        <img src="{{ site.baseurl }}{{ site.logo }}" alt="{{ site.title }}">
-        <h2>{{ site.moto | escape }}</h2>
-      </a>
-    </div>
-  </section>
-  <section class="navbar-section">
-    {% assign menu_pages = site.pages | where: 'menu', 'main' | sort: 'weight' %}
-    {% for p in menu_pages %}
-      <a href="{{ site.baseurl }}{{ p.url }}" class="btn btn-link">{{ p.title }}</a>
-    {% endfor %}
-  </section>
-</header>
+<nav class="navbar-main navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand brand-logo" href="{{ site.baseurl }}/">
+    <img src="{{ site.baseurl }}{{ site.logo }}" class="" alt="{{ site.title }}">
+    <h2>{{ site.moto | escape }}</h2>
+  </a>
+
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mainMenu" aria-controls="mainMenu" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="">Menu</span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="mainMenu">
+    <ul class="navbar-nav ml-auto">
+      {% assign menu_pages = site.pages | where: 'menu', 'main' | sort: 'path' %}
+      {% for p in menu_pages %}
+        {% assign is_active = "" %}
+        {% assign sr_current = "" %}
+        {% if page.url == p.url %}
+          {% assign is_active = "active" %}
+          {% assign sr_current = '<span class="sr-only">(current)</span>' %}
+        {% endif %}
+        <li class="nav-item {{ is_active }}">
+          <a class="nav-link" href="{{ site.baseurl }}{{ p.url }}">{{ p.title }}
+          {{ sr_current }}</a>
+        </li>
+      {% endfor %}
+    </ul>
+  </div>
+</nav>
+
+<div class="alert alert-primary">
+  <p>Ceci est un site de développement. Cette maquette n'est pas encore validée. <br>
+  NE PAS COMMUNIQUER L'URL AVANT VALIDATION ! Merci.</p>
+</div>
+
+{% include utils/cookiewarning.md %}

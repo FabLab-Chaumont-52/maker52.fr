@@ -1,6 +1,6 @@
 <footer class="navbar footer-main">
   <section class="navbar-section">
-    {% assign menu_pages = site.pages | where: 'menu', 'footer' %}
+    {% assign menu_pages = site.pages | where: 'menu', 'footer' | sort: 'path' %}
     {% for p in menu_pages %}
       <a href="{{ site.baseurl }}{{ p.url }}" class="btn btn-link">{{ p.title }}</a>
     {% endfor %}
@@ -9,3 +9,11 @@
     <a href="#top" class="btn btn-link">Haut de page</a>
   </section>
 </footer>
+
+<script src="{{ site.baseurl }}/node_modules/jquery/dist/jquery.slim.min.js"></script>
+
+<script src="{{ site.baseurl }}/node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+
+<script src="{{ site.baseurl }}/node_modules/js-cookie/src/js.cookie.js"></script>
+
+<script src="{{ site.baseurl }}/assets/script.js"></script>

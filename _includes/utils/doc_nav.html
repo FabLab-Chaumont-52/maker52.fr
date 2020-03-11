@@ -1,0 +1,8 @@
+
+<h4>Menu</h4>
+{% assign menu_pages = site.docs | sort: 'weight' %}
+<ul>
+{% for p in menu_pages %}
+  <li><a href="{{ site.baseurl }}{{ p.url }}" class="btn btn-link">{{ p.title }}</a></li>
+{% endfor %}
+</ul>

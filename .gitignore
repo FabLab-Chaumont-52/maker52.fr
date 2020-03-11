@@ -4,8 +4,4 @@ _site
 .jekyll-metadata
 vendor
 
-node_modules/spectre.css/*
-!node_modules/spectre.css/src/
-
-# this doesn't ignore dotfiles in node_modules/spectre.css/
-node_modules/spectre.css/.*
+node_modules
