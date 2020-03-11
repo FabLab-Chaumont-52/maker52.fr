@@ -1,0 +1,13 @@
+---
+title: Les Projets
+permalink: /les projets/
+published: true
+menu: main
+---
+<h2>Liste des projets</h2>
+<ul>
+{% for p in site.projets %}
+  <li><a href="{{ p.url }}">{{ p.title }}</a></li>
+{% endfor %}
+</ul>
+<h2>Archives projets</h2>
