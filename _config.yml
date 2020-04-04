@@ -7,6 +7,7 @@ title: Maker 52 - FabLab Chaumont
 subtitle:
 moto: Apprendre, Faire et Partager
 email: fablab[at]maker52[point]fr
+email_covid: covid@maker52.fr
 description: Laboratoire de Fabrication, où n'importe qui peut fabriquer presque n'importe quoi.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://maker52.fr" # the base hostname & protocol for your site, e.g. http://example.com

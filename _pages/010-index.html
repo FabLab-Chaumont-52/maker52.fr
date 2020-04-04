@@ -4,35 +4,26 @@ permalink: /
 title: Accueil
 menu: main
 ---
-<div class="home">
-
-<h1>Rejoignez nous !</h1>
-{% comment %}
-<figure>
-<img src="{{ site.baseurl }}{{ site.logo }}" alt="Logo Hack 52 - FabLab Chaumont">
-<figcaption><small>Modélisation du viaduc de Chaumont pour une impression 3D.
-<br>Crédits : Germain Matuchet</small></figcaption>
-</figure>
-{% endcomment %}
-
-<p>L'association Maker 52 - FabLab Chaumont a été créée le 18 décembre 2019 !</p>
-<p>Pour le moment nous sommes huit. Mais nous espérons recevoir un prompt renfort de votre part, afin de pouvoir ouvrir le FabLab au public dès que nous aurons trouvé un lieu où poser notre machine à café.</p>
-
-<p>Nous avons besoins de votre intelligence, de votre bienveillance et de votre envie d'<strong>"Apprendre, Faire et Partager"</strong>.</p>
-
-<p>Pour toutes questions, n'hésitez pas à nous faire un joli petit message à <strong>{{ site.email }}</strong>.</p>
-
-{% comment %}
-Yolo
-{% endcomment %}
-
-{% include mailchimp-form.html %}
+<div class="row mb-4 bg-primary border rounded shadow-sm ">
+  <div class="md-12 p-2">
+    <h1 class="text-white">Opération COVID</h1>
+  </div>
+</div>
+<div class="row mb-4">
+  <div class="col-md-5 p-4 border rounded shadow-sm">
+    <h3 class="mb-0 text-primary">Vous avez besoins de matériel de protection</h3>
+    <p class="card-text mb-auto">Vous faites partie des personnels qui sont "en premières lignes".</p>
+    <a href="{{ site.baseurl }}/protections-coronavirus/" class="stretched-link">Contactez-nous ...</a>
+  </div>
+  <div class="col-md-5 offset-md-2 p-4 border rounded shadow-sm">
+    <h3 class="mb-0 text-success">Vous voulez nous aider</h3>
+    <p class="mb-auto">Nous assurons la coordination de la production de protections et leur distribution auprès des personnels prioritaires.</p>
+    <a href="{{ site.baseurl }}/rejoignez-nous/" class="stretched-link text-success">Rejoignez-nous ...</a>
+  </div>
 </div>
 
-<h2>En savoir plus :</h2>
-<p>Monsieur Bidouille nous explique ce qu'est un FabLab :</p>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/UrMrgyjhTOk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-<p>Et pour tenter d’appréhender l'étendue de ce que peut être un FabLab, par <em>movilab.org</em> : <a href="https://movilab.org/wiki/Mod%C3%A8le_%C3%A9conomique_d%27un_FabLab">Modèle économique d'un FabLab</a></p>
-
-<p>Pour encore plus d'informations : <a href="https://lite.qwant.com/?q=qu'est-ce+qu'un+fablab">Qwant est notre ami</a>.</p>
+<div class="row">
+  <div class="col-md-10 offset-md-1 p-4 border rounded shadow-sm bg-primary text-light">
+    {% include mailchimp-form2.html %}
+  </div>
+</div>
