@@ -12,7 +12,7 @@ menu: main
   L'association {{ site.title }} produit actuellement des visières anti-éclaboussures qui sont distribuées gratuitement aux personnels qui sont "en premières lignes".
 
   **Vous travaillez dans la santé ou l'aide à la personne** et vous souhaitez vous procurer des visières, alors contactez-nous.
-  <div class="bg-warning p-2 text-center">
+  <div class="bg-warning p-2 text-center border rounded shadow-sm">
 ### {{ site.email_covid }}
 ### David Jacquel - 06-10-86-14-87
   </div>
@@ -23,7 +23,7 @@ menu: main
 <div class="row">
   <div class="col-md-12">
 
-<div class="bg-danger text-white p-2 text-center mb-2 mt-2">
+<div class="bg-danger text-white p-2 text-center mb-2 mt-4 border rounded shadow-sm">
 ## Notes importantes
 </div>
  - ### Elles ne protègent que contre les projection (postillons, salive, etc)

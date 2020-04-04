@@ -19,7 +19,7 @@ menu: main
    - en nous donnant des fournitures (Bobines PLA/PETG, élastiques, feuilles PVC transparentes 200 microns),
    - en faisant un don à notre association qui ne fonctionne que grâce à ses membres qui financent l'intégralité de la production.
 
-  <div class="bg-warning p-2 text-center">
+  <div class="bg-warning p-2 text-center border rounded shadow-sm mb-4">
 ### Contacter-nous
 ### {{ site.email_covid }}
 ### David Jacquel - 06-10-86-14-87
