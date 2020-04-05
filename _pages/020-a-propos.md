@@ -13,4 +13,4 @@ En cette période de confinement, nous n’arrêtons pas notre activité. Grâce
 
 Si vous souhaitez vous joindre à nous dans cet effort, ou si vous faites partie des demandeur de matériel, n'hésitez pas à nous contacter par mail : **{{ site.email }}**.
 
-Les statuts {{ site.title }} - {{ site.subtitle }} : <a href="https://drive.google.com/file/d/1Y60qJI7L8fhSXfWWQT9KaC3JuYkBfHeO/view?usp=sharing">par ici</a>.
+Les statuts {{ site.title }} - {{ site.subtitle }} : <a href="https://drive.google.com/file/d/1UypdfPhtyDX_b7CPA0RKzhYg66oCOEGL/view?usp=sharing">par ici</a>.
