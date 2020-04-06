@@ -1,13 +1,24 @@
+
+
 <footer class="navbar footer-main">
+
+  <section class="social">
+    <a href="https://www.facebook.com/Maker-52-FabLab-Chaumont-102607324740880/" target="_blank">
+      <span> </span>Suivez-nous sur Facebook
+    </a>
+  </section>
+
   <section class="navbar-section">
     {% assign menu_pages = site.pages | where: 'menu', 'footer' | sort: 'path' %}
     {% for p in menu_pages %}
       <a href="{{ site.baseurl }}{{ p.url }}" class="btn btn-link">{{ p.title }}</a>
     {% endfor %}
   </section>
+
   <section class="navbar-section">
     <a href="#top" class="btn btn-link">Haut de page</a>
   </section>
+
 </footer>
 
 <script src="{{ site.baseurl }}/node_modules/jquery/dist/jquery.slim.min.js"></script>

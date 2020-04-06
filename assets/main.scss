@@ -51,6 +51,18 @@
   }
 }
 
+.social {
+
+  a{
+  display: block;
+  padding-left: 40px;
+  background-size: 30px 30px;
+  background: url('../img/social/facebook.svg') no-repeat 0px 0px;
+  color: #4266b2;
+  }
+
+}
+
 /* +++++++++++ WIP +++++++++++++ */
 
 
@@ -73,9 +85,4 @@
     */
   }
 }
-
-#mc-embedded-subscribe-form input[type=checkbox]{display: inline; width: auto;margin-right: 10px;}
-#mergeRow-gdpr {margin-top: 20px;}
-#mergeRow-gdpr fieldset label {font-weight: normal;}
-#mc-embedded-subscribe-form .mc_fieldset{border:none;min-height: 0px;padding-bottom:0px;}
 
