@@ -11,6 +11,6 @@ Nous ne disposons pour le moment pas d'un lieu qui nous permette d'accueillir le
 
 En cette période de confinement, nous n’arrêtons pas notre activité. Grâce à internet et la visioconférence, nous avons pu organiser la production de matériels de protection à destination des gens qui se trouvent en "premières lignes".
 
-Si vous souhaitez vous joindre à nous dans cet effort, ou si vous faites partie des demandeur de matériel, n'hésitez pas à nous contacter par mail : **{{ site.email }}**.
+Si vous souhaitez vous joindre à nous dans cet effort, ou si vous faites partie des demandeurs de matériel, n'hésitez pas à nous contacter par mail : **{{ site.email }}**.
 
 Les statuts {{ site.title }} - {{ site.subtitle }} : <a href="https://drive.google.com/file/d/1UypdfPhtyDX_b7CPA0RKzhYg66oCOEGL/view?usp=sharing">par ici</a>.
