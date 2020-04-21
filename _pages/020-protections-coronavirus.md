@@ -12,11 +12,31 @@ menu: main
   L'association {{ site.title }} produit actuellement des visières anti-éclaboussures qui sont distribuées gratuitement aux personnels qui sont "en premières lignes".
 
   **Vous travaillez dans la santé ou l'aide à la personne** et vous souhaitez vous procurer des visières, alors contactez-nous.
-  <div class="bg-warning p-2 text-center border rounded shadow-sm">
-### {{ site.email_covid }}
-### David Jacquel - 06-10-86-14-87
+  </div>
+</div>
+
+<div class="row mb-4 mt-4">
+  <div class="bg-warning col-md-4 p-4 border rounded shadow-sm">
+### Chaumont
+
+{{ site.email_covid }}
+
+06-10-86-14-87
   </div>
 
+  <div class="bg-warning col-md-4 p-4 border rounded shadow-sm">
+### St-Dizier
+St-Dizier Fablab
+
+contact@fablabsaintdizier.com
+
+09 51 22 40 51
+  </div>
+
+  <div class="bg-warning col-md-4 p-4 border rounded shadow-sm">
+### Langres
+
+AB3D - 06 86 97 97 73
   </div>
 </div>
 
