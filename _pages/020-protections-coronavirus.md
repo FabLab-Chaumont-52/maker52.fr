@@ -8,10 +8,21 @@ menu: main
   <div class="col-md-4">
   <img class="img-thumbnail" src="{{ site.baseurl }}/img/visiere-01-profil.jpg" alt="Visiere anti-éclaboussures">
   </div>
-  <div class="col-md-8 lead">
+  <div class="col-md-8">
   L'association {{ site.title }} produit actuellement des visières anti-éclaboussures qui sont distribuées gratuitement aux personnels qui sont "en premières lignes".
 
-  **Vous travaillez dans la santé ou l'aide à la personne** et vous souhaitez vous procurer des visières, alors contactez-nous.
+  <strong>Vous travaillez dans la santé ou l'aide à la personne</strong> et vous souhaitez vous procurer des visières, alors contactez-nous.
+
+  <div class="bg-warning p-4 lead">
+  Nous vous signalons l'initiative "Masques, gels hydroalcooliques pour les entreprises et les artisans de la région Grand Est". Info sur <a href="https://barriere-covid19.fr/">barriere-covid19.fr/</a>
+  </div>
+
+  </div>
+</div>
+
+<div class="row mb-2 mt-4">
+  <div class="bg-primary col-md-12 p-4 border rounded shadow-sm">
+#### Vous pouvez vous procurer nos visières à :
   </div>
 </div>
 
