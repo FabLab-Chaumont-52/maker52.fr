@@ -51,7 +51,7 @@ AB3D - 06 86 97 97 73
 
    Elles ne bénéficient pour le moment d'aucun agrément des autorités de santé.
 
- - ### Elles ne supporte pas les températures supérieures à 60°C
+ - ### Elles ne supportent pas les températures supérieures à 60°C
    Doivent être désinfectées/stérilisées avant toute première utilisation - comme tout autre objet (eau oxygénée ou eau savonneuse, bain de désinfection, séchage, stérilisation par gaz).
 
    Sachez que nous apportons un grand soin dans la réalisation de ces objets. Nos mesures d’hygiènes sont stricts et tous les objets sont désinfecter dans un bain d’eau de javel diluée à 10 % ou alcool à plus de 70° avant d’être immédiatement conditionnés.
