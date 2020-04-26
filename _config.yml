@@ -12,7 +12,7 @@ description: Laboratoire de Fabrication, où n'importe qui peut fabriquer presqu
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://maker52.fr" # the base hostname & protocol for your site, e.g. http://example.com
 
-logo: "/img/logo-maker-52-optim.svg"
+logo: "/img/logo/logo-maker-52-v2-optim.svg"
 
 lang: fr
 timezone: Europe/Paris # +1 / DST +2
