@@ -65,7 +65,7 @@ AB3D - 06 86 97 97 73
  - ### Elles ne supportent pas les températures supérieures à 60°C
    Doivent être désinfectées/stérilisées avant toute première utilisation - comme tout autre objet (eau oxygénée ou eau savonneuse, bain de désinfection, séchage, stérilisation par gaz).
 
-   Sachez que nous apportons un grand soin dans la réalisation de ces objets. Nos mesures d’hygiènes sont stricts et tous les objets sont désinfecter dans un bain d’eau de javel diluée à 10 % ou alcool à plus de 70° avant d’être immédiatement conditionnés.
+   Sachez que nous apportons un grand soin dans la réalisation de ces objets. Nos mesures d’hygiènes sont stricts et tous les objets sont désinfectés dans un bain d’eau de javel diluée à 10 % ou alcool à plus de 70° avant d’être immédiatement conditionnés.
 
  - ### Elles sont relativement fragiles et doivent être manipulées avec soin
 
@@ -82,7 +82,7 @@ N’hésitez pas à nous faire part de toute remarque concernant ces visières.
 
 Les concepteurs, distributeurs, assembleurs de ces visières ne pourront en aucun cas être tenus responsables juridiquement de l’usage qui en est fait, ni des conséquences matérielles ou médicales relatives à cet usage.
 
-Toutes l’équipe de Maker 52 – FabLab Chaumont remercie les gens qui sont en « première lignes » et reste à leur disposition pour toute étude ou fabrication d’objets de protection.
+Toute l’équipe de Maker 52 – FabLab Chaumont remercie les gens qui sont en « première lignes » et reste à leur disposition pour toute étude ou fabrication d’objets de protection.
 
   </div>
 </div>
